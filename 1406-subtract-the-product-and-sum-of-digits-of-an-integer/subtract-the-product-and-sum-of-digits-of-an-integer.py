@@ -4,8 +4,7 @@ class Solution:
         s=0
         while n>0:
             digit=n%10
-            if digit>=0:
-                p*=digit
-                s+=digit
+            p*=digit
+            s+=digit
             n//=10
         return p-s
