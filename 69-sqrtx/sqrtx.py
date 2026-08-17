@@ -5,7 +5,7 @@ class Solution:
         l=1
         r=x//2
         while l<=r:
-            mid=l+(r-l)//2
+            mid=(l+r)//2
             if mid*mid==x:
                 return mid
             elif mid*mid<x:
